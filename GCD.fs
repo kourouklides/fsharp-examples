@@ -13,7 +13,8 @@ let b =
 
 // Recursively find GCD
 let rec gcd x y =
-    if y = 0 then x
-    else gcd y (x % y)  //
- 
-Console.WriteLine(gcd a b) // print gcd(a,b)
+    if y = 0 then x					// base case
+    else gcd y (x % y)  // recursive case
+
+// Print GCD(a,b)
+Console.WriteLine(gcd a b) 
