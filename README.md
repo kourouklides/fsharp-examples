@@ -10,4 +10,5 @@ More advanced material might be added if more advanced contributors are willing 
 Online resources
 * http://fsharp.org/
 * http://fssnip.net/
+* http://tryfsharporg.cloudapp.net/
 * http://www.tryfsharp.org/
