@@ -1,15 +1,15 @@
-// define addition
+// Define addition
 let add = (fun x y -> x + y)
 // evaluate addtion of 2 + 2
 add 2 2
-// implement increment using addtion by 1
+// Implement increment using addtion by 1
 let inc = add 1
 
-// second version
+// Second version
 let add2 = (fun x -> (fun y -> x + y))
 let inc2 = add2 1
 
-// evaluate sample increments
+// Evaluate sample increments
 inc2 8;; inc 10;;
 
 (* let twoTest test =
