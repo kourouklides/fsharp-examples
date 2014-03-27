@@ -1,7 +1,7 @@
 fsharp-samples
 ==============
 
-Sample code in .NET F#
+Sample code in .NET F# developed with the latest version of MS Visual Studio.
 
 Online resources
 * http://fsharp.org/
