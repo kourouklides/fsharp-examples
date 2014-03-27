@@ -13,7 +13,7 @@ let b =
 
 // Recursively find GCD
 let rec gcd x y =
-    if y = 0 then x					// base case
+    if y = 0 then x     // base case
     else gcd y (x % y)  // recursive case
 
 // Print GCD(a,b)
