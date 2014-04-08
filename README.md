@@ -7,6 +7,8 @@ Suitable for beginners to intermediate users.
 
 More advanced material might be added if more advanced contributors are willing to participate.
 
+Note: Code can run on any platform and IDE, but was only tested with VS.
+
 Online resources
 * http://fsharp.org/
 * http://fssnip.net/
