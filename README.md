@@ -14,3 +14,7 @@ Online resources
 * http://fssnip.net/
 * http://tryfsharporg.cloudapp.net/
 * http://www.tryfsharp.org/
+
+Test code your write (onlien compilers)
+* https://www.hackerrank.com/
+* http://www.tryfsharp.org/
