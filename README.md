@@ -15,6 +15,6 @@ Online resources
 * http://tryfsharporg.cloudapp.net/
 * http://www.tryfsharp.org/
 
-Test code your write (onlien compilers)
+Test code your write (online compilers)
 * https://www.hackerrank.com/
 * http://www.tryfsharp.org/
