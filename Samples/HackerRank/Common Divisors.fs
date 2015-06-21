@@ -13,7 +13,6 @@ let main() =
         if number % divisor = 0 then
             yield divisor
             yield number / divisor
-
     }
 
     // Number of factors of a single number
@@ -48,3 +47,27 @@ let main() =
     output |> Array.iter (printf "%d \n")
 
 main()
+
+(*
+let rec gcd (a, b) =
+    match b with
+        | 0 -> a
+        | _ -> gcd (b, a % b)
+
+
+let div_count n =
+    let rec divs acc = function
+            | []        -> acc
+            | h :: t    -> if n % h = 0 then if n / h = h then divs (acc + 1) t
+                                                          else divs (acc + 2) t
+                                        else divs acc t
+    
+    let sqrt_n = n |> float |> sqrt |> int
+    divs 0 [1..sqrt_n]
+
+
+let T = System.Console.ReadLine() |> int
+for i in 1..T do
+    let (L, M) = System.Console.ReadLine().Split(' ') |> Array.map (int) |> (fun arr -> arr.[0], arr.[1])
+    gcd (L, M) |> div_count |> System.Console.WriteLine
+*)
