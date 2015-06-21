@@ -9,9 +9,7 @@ let main argv =
         |> Seq.takeWhile isValid
         |> Seq.toList
         |> Seq.map int
-    
-    let s = inputList |> Seq.head
-    
+
 //    let s = Seq.nth 0 inputList
     let s = inputList |> Seq.head
     let L = inputList |> Seq.length
