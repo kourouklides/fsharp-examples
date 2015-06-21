@@ -29,3 +29,15 @@ let main =
     let h = int(arr.[0])
     let t = arr |> List.tail
     f h t |> List.iter (printf "%f \n")
+
+(*
+let exp f =
+  [ 1 .. 9 ]
+  |> List.fold (fun acc n ->
+    let fac = [ 1 .. n ] |> List.fold ( * ) 1 |> float
+    acc + (pown f n) / fac) 1.
+
+stdin.ReadToEnd().Split '\n'
+|> Seq.skip 1
+|> Seq.iter (float >> exp >> printfn "%f")
+*)
