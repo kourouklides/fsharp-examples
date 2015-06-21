@@ -21,3 +21,19 @@ let main argv =
     
     0 // return an integer exit code
     
+(*
+open System
+
+let input = 
+    Seq.initInfinite (fun _ -> System.Console.ReadLine())
+    |> Seq.takeWhile (fun s -> s <> null)
+    |> Seq.map int
+    |> List.ofSeq
+
+[<EntryPoint>] 
+let main args = 
+  input
+  |> List.fold (fun acc n -> n::acc) List.empty
+  |> List.iter (fun n -> System.Console.WriteLine(n))
+  0
+*)
