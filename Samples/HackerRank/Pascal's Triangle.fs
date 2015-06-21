@@ -16,3 +16,19 @@ let main() =
     pascal k
  
 main()
+
+(*
+open System 
+
+let rec fact = function
+    | 0 -> 1
+    | n -> n * fact (n - 1)
+
+let nCr n k = (fact n) / (fact k) / (fact (n - k))
+
+let x = Convert.ToInt32(Console.ReadLine())
+for n in 0..(x-1) do
+    for k in 0..n do
+        nCr n k |> printf "%A "
+    printf "\n"
+*)
