@@ -22,18 +22,22 @@ let main argv =
     0 // return an integer exit code
     
 (*
-open System
+let input = stdin.ReadToEnd().Split '\n' |> Array.map(fun x -> int(x))
+let output = Array.foldBack (fun elem acc -> (List.replicate input.[0] elem)@acc) input.[1..] []
+List.fold (fun acc x -> printfn "%A" x) () output
+*)
 
-let input = 
-    Seq.initInfinite (fun _ -> System.Console.ReadLine())
-    |> Seq.takeWhile (fun s -> s <> null)
-    |> Seq.map int
-    |> List.ofSeq
+(*
+let read() = System.Console.ReadLine()
 
-[<EntryPoint>] 
-let main args = 
-  input
-  |> List.fold (fun acc n -> n::acc) List.empty
-  |> List.iter (fun n -> System.Console.WriteLine(n))
-  0
+let s = read() |> System.Convert.ToInt32
+let rec loop() =
+    match read() with
+    | null -> ignore()
+    | x -> 
+        for i in [1..s] do
+            printfn "%s" x
+        loop()
+
+loop()
 *)
