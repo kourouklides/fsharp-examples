@@ -9,13 +9,13 @@ More advanced material might be added if more advanced contributors are willing 
 
 Note: Code can run on any platform and IDE, but was tested only with VS.
 
-Online resources
+Online resources:
 * http://fsharp.org/
 * http://fssnip.net/
 * http://tryfsharporg.cloudapp.net/
 * http://www.tryfsharp.org/
 
-Test code your write (online compilers)
+Test code your write (online compilers):
 * https://www.hackerrank.com/
 * http://www.tryfsharp.org/
 * http://www.tutorialspoint.com/compile_fsharp_online.php
