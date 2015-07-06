@@ -12,8 +12,6 @@ Note: Code can run on any platform and IDE, but was tested only with VS.
 Online resources:
 * http://fsharp.org/
 * http://fssnip.net/
-* http://tryfsharporg.cloudapp.net/
-* http://www.tryfsharp.org/
 * http://c4fsharp.net/
 
 Test code your write (online compilers):
