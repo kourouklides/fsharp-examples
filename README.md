@@ -13,6 +13,7 @@ Online resources:
 * http://fsharp.org/
 * http://fssnip.net/
 * http://c4fsharp.net/
+* http://www.tutorialspoint.com/fsharp/
 
 Test code your write (online compilers):
 * https://www.hackerrank.com/
