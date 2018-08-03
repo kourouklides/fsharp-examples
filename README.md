@@ -1,7 +1,7 @@
 fsharp-examples
 ==============
 
-Sample code in .NET F# developed with the latest version of MS Visual Studio or Xamarin Studio.
+Example code in .NET F# developed with the latest version of MS Visual Studio or Xamarin Studio.
 
 Suitable for beginners to intermediate programmers.
 
