@@ -1,5 +1,4 @@
-fsharp-examples
-==============
+# fsharp-examples
 
 Example code in .NET F# developed with the latest version of MS Visual Studio or Xamarin Studio.
 
