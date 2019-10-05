@@ -18,7 +18,7 @@ Test code your write (online compilers):
 * https://www.hackerrank.com/
 * https://try.fsharp.org/
 * http://www.tutorialspoint.com/compile_fsharp_online.php
-* http://rextester.com/runcode
+* https://rextester.com/l/fsharp_online_compiler
 
 Comparison to Scala:
 * https://mikhail.io/2016/08/comparing-scala-to-fsharp/
